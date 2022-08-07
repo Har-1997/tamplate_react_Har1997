@@ -1,0 +1,61 @@
+.App{
+  position: relative;
+}
+.caruselHome{
+  height: 690px !important;
+  object-fit: cover;
+}
+.imgAboutTabs{
+  height: 450px;
+  object-fit: cover;
+}
+.contactContainer{
+  width: 500px !important;
+}
+.formGr{
+  margin: 10px 0px;
+}
+@media(max-width: 501px) {
+  .contactContainer{
+      width: 100% !important;
+  }
+}
+.cardOurTeam{
+  margin: 0px 30px;
+}
+.cardBodyBlog{
+  display: flex;
+}
+.main-footer{
+  position: relative;
+  height: 250px;
+  margin-top: 50px !important;
+}
+.footerColDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  height: 250px;
+  background-color: #000000db;
+}
+.contPngDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.contLogo{
+  width: 27%;
+}
+.footerText{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+}
+.footerText b{
+  margin: 5px 0px;
+  color: white;
+}
